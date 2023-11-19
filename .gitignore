@@ -1,0 +1,6 @@
+# dependencies
+/node_modules
+.env
+requests.http
+./build
+./package-lock.json

@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/app.js",
+  "scripts": {
+    "start": "tsc && nodemon  build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hoanv",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.6",
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
+  }
+}
